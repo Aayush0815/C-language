@@ -10,13 +10,10 @@ int main() {
 
   for (i = 2; i < no; i++) 
   {
+    printf("%d ", a);
     c = a + b;
-    printf("%d ", c);
     a = b;
     b = c;
-/*    c = a + b;
-    printf("%d ", c);
-*/    
   }
 
   return 0;
